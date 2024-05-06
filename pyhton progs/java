@@ -1,0 +1,6 @@
+class HelloWorld{
+    public static void main(string[] args){
+        string a="asshole!";
+        system.out.println("Hello"+a);
+    }
+}

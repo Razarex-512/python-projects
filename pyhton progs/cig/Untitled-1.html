@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="static/styles.css">
+    <title>Cigar Shop</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Cigar Shop</h1>
+    </header>
+    <main>
+        <div id="cigar-list">
+            {% for cigar in cigars %}
+                <div class="cigar-item">
+                    <h2>{{ cigar.name }}</h2>
+                    <p>{{ cigar.description }}</p>
+                </div>
+            {% endfor %}
+        </div>
+            
+        </div>
+    </main>
+</body>
+</html>
